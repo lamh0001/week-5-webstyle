@@ -1,3 +1,75 @@
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
+
+   
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  background-color: darkgreen;
+}
+
+.navbar a {
+  padding: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: orange;
+}
+
+.navbar a:focus {
+  outline: 2px solid orange;
+}
+
+.wrapper {
+  margin: 20px;
+}
+
+.intro {
+  margin-bottom: 2em;
+}
+
+.store {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card {
+  flex: 1 1 250px;
+  padding: 1em;
+  background-color: lightpink;
+  border-radius: 20px;
+}
+
+.card:hover {
+  background-color: pink;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 20px;
+  background-color: lightgray;
+}
+
+

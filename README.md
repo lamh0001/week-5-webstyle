@@ -25,3 +25,5 @@ This repository is a GitHub template, so each student ends up owning their own c
 URL of their own. It pairs with `mtm1544/assignments/week-01-styling-the-starter-page.md` in the
 assessments repository. If the course moves to a different account or organisation, move this
 repository with it and update the link in that assignment and in immac's README.
+
+/*I used the the Week 1 starter page for this assignement*/
